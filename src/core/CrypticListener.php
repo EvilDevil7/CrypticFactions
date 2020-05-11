@@ -69,7 +69,7 @@ class CrypticListener implements Listener
     public function __construct(Cryptic $core)
     {
         $this->core = $core;
-        $this->messages[] = Cryptic::SERVER_NAME;
+        $this->messages[] = Cryptic::Multi-Craft;
         $this->messages = array_merge($this->messages, Cryptic::MESSAGES);
     }
 
@@ -81,7 +81,7 @@ class CrypticListener implements Listener
         /** @var CrypticPlayer $player */
         $player = $e->getSender();
         if ($player->getRank()->getIdentifier() >= 8 and !in_array($player->getRank()->getIdentifier(), [Rank::OVERLORD, Rank::YOUTUBER, Rank::FAMOUS])) {
-            $webhook = "692900412038316075/PFLhQ9OJYUAGoj6EGjmMa7X_oGGrNcsSyozAS8Z9JmVK4SA5FGOI-oWorPt05blTWCAO";
+            $webhook = "https://discord.com/api/webhooks/709508568503812113/2lgiU_ImO7OVr4TZC4fIvefJcJJwo8ngpeVtSAVb4XuCL1vGT9ldVHxigee2rZT8PMU6";
             DiscordManager::postWebhook($webhook, "/" . $e->getCommand(), $player->getName());
         }
     }
