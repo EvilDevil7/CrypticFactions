@@ -7,3 +7,13 @@ If Anyone want to help create your issuses and your user, and what u can help wi
 Contact Me: MakerbakerYt#3139
 
 Join My Mcpe Server: https://discord.gg/rJ5QSpS
+
+Users That Are Helping
+
+EvilDevil7
+
+Github:https://github.com/EvilDevil7
+
+MakerbakkerYT
+
+GitHub: https://github.com/MakerbakerYT
