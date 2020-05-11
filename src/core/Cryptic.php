@@ -53,12 +53,12 @@ class Cryptic extends PluginBase {
 
     private static $STARTUP_WORLDS = ["wild", "pvp", "bossarena"];
     private static $DIRECTORIES = ["factions", "players", "kits"];
-    private static $SERVER_NAME = "§l§6Cryptic§ePE§r §7- §l§b Op Factions§r§7";
+    private static $SERVER_NAME = "§l§Muilti§eCraft§r §7- §l§b Op Factions§r§7";
 
     const MESSAGES = [
-        "§l§6Cryptic§ePE§r §7- §l§bSERVER RESET!§r§7",
-        "§l§6Cryptic§ePE§r §7- §l§bSERVER RELEASED!§r§7",
-        "§l§6Cryptic§ePE§r §7- §l§bSEASON I§r§7",
+        "§l§6Multi§eCraft§r §7- §l§bSERVER RESET!§r§7",
+        "§l§6Multi§eCraft§r §7- §l§bSERVER RELEASED!§r§7",
+        "§l§6Multi§eCraft§r §7- §l§bSEASON I§r§7",
     ];
 
     const BORDER = 20000;
