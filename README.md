@@ -1,3 +1,3 @@
 # CrypticPE OP Factions
 
-I Dont Know If This Will Ever Work Help Needed
+### Help Needed Tell Me If You Want To Be Apart Of This Project 
