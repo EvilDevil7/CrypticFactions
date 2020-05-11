@@ -4,7 +4,6 @@ declare(strict_types=1);
 
 namespace core;
 
-use core\discord\DiscordManager;
 use core\faction\Faction;
 use core\rank\Rank;
 use core\sessions\SessionManager;
