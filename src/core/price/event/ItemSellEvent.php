@@ -8,25 +8,25 @@ use core\CrypticPlayer;
 use pocketmine\event\player\PlayerEvent;
 use pocketmine\item\Item;
 
-class ItemBuyEvent extends PlayerEvent {
+class ItemSellEvent extends PlayerEvent {
 
     /** @var Item */
     private $item;
 
     /** @var int */
-    private $spent;
+    private $profit;
 
     /**
-     * ItemBuyEvent constructor.
+     * ItemSellEvent constructor.
      *
      * @param CrypticPlayer $player
      * @param Item          $item
-     * @param int           $spent
+     * @param int           $profit
      */
-    public function __construct(CrypticPlayer $player, Item $item, int $spent) {
+    public function __construct(CrypticPlayer $player, Item $item, int $profit) {
         $this->player = $player;
         $this->item = $item;
-        $this->spent = $spent;
+        $this->profit = $profit;
     }
 
     /**
@@ -39,7 +39,7 @@ class ItemBuyEvent extends PlayerEvent {
     /**
      * @return int
      */
-    public function getSpent(): int {
-        return $this->spent;
+    public function getProfit(): int {
+        return $this->profit;
     }
 }
