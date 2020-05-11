@@ -69,7 +69,7 @@ class CrypticListener implements Listener
     public function __construct(Cryptic $core)
     {
         $this->core = $core;
-        $this->messages[] = Cryptic::Multi-Craft;
+        $this->messages[] = Cryptic::OP Faction;
         $this->messages = array_merge($this->messages, Cryptic::MESSAGES);
     }
 
