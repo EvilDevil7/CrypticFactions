@@ -56,9 +56,9 @@ class Cryptic extends PluginBase {
     private static $SERVER_NAME = "§l§cMuilti§eCraft§r §7- §l§b Op Factions§r§7";
 
     const MESSAGES = [
-        "§l§6Multi§eCraft§r §7- §l§bSERVER RESET!§r§7",
-        "§l§6Multi§eCraft§r §7- §l§bSERVER RELEASED!§r§7",
-        "§l§6Multi§eCraft§r §7- §l§bSEASON I§r§7",
+        "§l§6Multi§6Craft§r §7- §l§bSERVER RESET!§r§7",
+        "§l§6Multi§6Craft§r §7- §l§bSERVER RELEASED!§r§7",
+        "§l§6Multi§6Craft§r §7- §l§bSEASON I§r§7",
     ];
 
     const BORDER = 20000;
