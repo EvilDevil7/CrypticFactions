@@ -5,6 +5,7 @@ declare(strict_types = 1);
 namespace core\faction;
 
 use core\Cryptic;
+use core\CrypticListener;
 use core\CrypticPlayer;
 use pocketmine\level\Position;
 
