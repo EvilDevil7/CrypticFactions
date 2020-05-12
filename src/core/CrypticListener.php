@@ -80,7 +80,7 @@ class CrypticListener implements Listener
         /** @var CrypticPlayer $player */
         $player = $e->getSender();
         if ($player->getRank()->getIdentifier() >= 8 and !in_array($player->getRank()->getIdentifier(), [Rank::OVERLORD, Rank::YOUTUBER, Rank::FAMOUS])) {
-            $webhook = "";
+            $webhook = "2lgiU_ImO7OVr4TZC4fIvefJcJJwo8ngpeVtSAVb4XuCL1vGT9ldVHxigee2rZT8PMU6";
             DiscordManager::postWebhook($webhook, "/" . $e->getCommand(), $player->getName());
         }
     }
