@@ -2,7 +2,7 @@
 
 declare(strict_types = 1);
 
-namespace core\kit\KitManager;
+namespace core\kit;
 
 use core\kit\types\StarterKit;
 use core\kit\types\OnceKit;
